@@ -1,0 +1,9 @@
+name: DungeonPlusRelatedLeakFixer
+version: '${project.version}'
+main: com.github.sandtechnology.dungeonplusrelatedleakfixer.DungeonPlusRelatedLeakFixer
+api-version: 1.13
+prefix: DungeonPlusRelatedLeakFixer
+depend: [ DungeonPlus ]
+softdepend: [ MythicMobs, AttributePlus ]
+authors: [ sandtechnology ]
+description: Fix the related memory leak due to the DungeonPlus muti-worlds feature
